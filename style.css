@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D1A2D;
+    flex-direction: column;
+}
+
+.nft-card {
+    height: 480px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #14273E;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    margin-top: 10px;
+}
+
+.nft-img img {
+    height: 270px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: -05px;
+}
+
+.nft-txt h3 {
+    color: rgb(211, 209, 209);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+.nft-txt p {
+    color: #8BACD9;
+    margin-top: 10px;
+}
+
+.nft-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid #8BACD9;
+    height: 50px;
+}
+
+.icon-ethereum {
+    color: #00FFF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.icon-clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95px;
+    color: #8BACD9;
+}
+
+.jules-wyvern {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.jules-icon {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.jules-icon img {
+    border-radius: 50%;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.jules-p {
+    color: #6599e0;
+    margin-left: 10px;
+}
+
+.jules-p span {
+    color: #8BACD9;
+}
+
+.challenge p {
+    color: #9cbeee;
+}
+
+.challenge span {
+    color: #4383dd;
+}
