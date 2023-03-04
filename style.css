@@ -110,3 +110,34 @@ body {
 .challenge span {
     color: #4383dd;
 }
+
+@media (max-width: 360px) {
+    .nft-card {
+        width: 90%;
+    }
+
+    .challenge p {
+        font-size: 0.9em;
+    }
+    
+    .challenge span {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 325px) {
+    .nft-img img {
+        height: 230px;
+        width: 230px;
+        border-radius: 10px;
+        margin-top: -05px;
+    }
+
+    .challenge p {
+        text-align: center;
+    }
+    
+    .challenge span {
+        text-align: center;
+    }
+}
